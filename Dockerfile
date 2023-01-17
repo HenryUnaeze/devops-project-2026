@@ -2,7 +2,7 @@
 FROM node:18-alpine
 
 # Setting up the environment variables needed:
-ENV DOMAIN="http://13.235.151.196:3000" \
+ENV DOMAIN="http://localhost:3000" \
 PORT=3000 \
 STATIC_DIR="./client" \
 PUBLISHABLE_KEY="REMOVED_PUBLISHABLE_KEY" \
